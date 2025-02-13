@@ -1,0 +1,30 @@
+[
+    {
+        "id": "urn:milestone:camera1",
+        "type": "source",
+        "location": {
+            "type": "GeoProperty",
+            "value": {
+                 "type": "Point",
+                 "coordinates": [38.064664, 23.808709]
+            }
+        },
+        "description": {
+            "type": "Property",
+            "value": "Video camera monitoring workers"
+        },
+        "category": {
+            "type": "Property",
+            "value": "IP-Camera"
+        },
+        "rtsp": {
+            "type": "Property",
+            "value": "192.168.1.2:8554/camera1"
+        },
+        "installedIn": {
+            "type": "Property",
+            "value": "Technopolis"
+        },
+        "@context": "https://iot-data-space.github.io/context/context/milestone.jsonld"
+    }
+]
